@@ -8,7 +8,7 @@ function Footer() {
       <footer className="bg-white px-8 py-16 lg:py-24 text-center flex flex-col lg:flex-row lg:text-left gap-16 lg:justify-between lg:px-32">
         <div className="space-y-6 lg:w-96">
           <div className="space-y-4">
-            <div>
+            {/* <div>
               <Image
                 src="/images/logo/logo-black.svg"
                 alt="logo"
@@ -16,7 +16,8 @@ function Footer() {
                 height={160}
                 className="m-auto lg:m-0"
               />
-            </div>
+            </div> */}
+            <h1 className="font-serif text-2xl"> VIGNESH FITNESS</h1>
             <p className="text-[0.9rem]">
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.
@@ -35,12 +36,12 @@ function Footer() {
             >
               <i className="fa-brands fa-twitter"></i>
             </Link>
-            <Link
+            {/* <Link
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
             >
               <i className="fa-brands fa-pinterest-p"></i>
-            </Link>
+            </Link> */}
             <Link
               href="https://www.youtube.com"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
@@ -49,7 +50,7 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <p>Privacy Policy | © {new Date().getFullYear()} Gymate</p>
+            <p>Privacy Policy | © {new Date().getFullYear()} Vishnu Fitness</p>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
@@ -59,21 +60,21 @@ function Footer() {
               <span className="top-8 left-[5.75rem] lg:left-0 absolute w-16 h-[4px] bg-[#ff0366]"></span>
             </div>
             <div className="flex flex-col gap-4 items-center lg:items-baseline">
-              <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
-                Fitness Classes
+              <Link href="/about" className="hover:text-[#ff0336] hover:font-bold">
+                About
               </Link>
-              <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
-                Aerobics Classes
+              <Link href="/gallery" className="hover:text-[#ff0336] hover:font-bold">
+                Gallery
               </Link>
-              <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
-                Power Yoga
+              <Link href="/contact" className="hover:text-[#ff0336] hover:font-bold">
+                Contact
               </Link>
-              <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
+              {/* <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
                 Learn Machines
               </Link>
               <Link href="/" className="hover:text-[#ff0336] hover:font-bold">
                 Full-body Strength
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="space-y-6">

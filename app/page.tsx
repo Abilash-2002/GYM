@@ -23,10 +23,10 @@ export default function Home() {
       <WhoWeAre />
       <FeaturedClass />
       <WhyChooseUs />
-      <GymTrainers />
-      <Sponsors />
-      <Bmi />
-      <PricingChart />
+      {/* <GymTrainers /> */}
+      {/* <Sponsors /> */}
+      {/* <Bmi /> */}
+      {/* <PricingChart /> */}
       <LatestBlog />
       <Cta />
       <Footer />

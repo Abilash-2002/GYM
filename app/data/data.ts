@@ -142,19 +142,21 @@ export const schedule = {
 
 export const gallery = {
   page1: [
-    "/images/gallery/page-1/img-1.jpg",
-    "/images/gallery/page-1/img-2.jpg",
-    "/images/gallery/page-1/img-3.jpg",
-    "/images/gallery/page-1/img-4.jpg",
-    "/images/gallery/page-1/img-5.jpg",
-    "/images/gallery/page-1/img-6.jpg",
-    "/images/gallery/page-1/img-7.jpg",
-    "/images/gallery/page-1/img-8.jpg",
+   "/images/gallery/page-1/img-11.jpg", 
+    "/images/gallery/page-1/img-12.jpg",
+    //"/images/gallery/page-1/img-13.jpg",
+    //"/images/gallery/page-1/img-14.jpg",
+    "/images/gallery/page-1/img-18.jpg",
+    "/images/gallery/page-1/img-19.jpg",
+   "/images/gallery/page-1/img-20.jpg",
+    "/images/gallery/page-1/img-10.jpg",
   ],
   page2: [
-    "/images/gallery/page-2/img-1.jpg",
-    "/images/gallery/page-2/img-2.jpg",
-    "/images/gallery/page-2/img-3.jpg",
-    "/images/gallery/page-2/img-4.jpg",
+    "/images/gallery/page-2/img-5.jpg",
+    "/images/gallery/page-2/img-6.jpg",
+    "/images/gallery/page-2/img-7.jpg",
+    "/images/gallery/page-2/img-8.jpg",
+    "/images/gallery/page-2/img-9.jpg", 
+    "/images/gallery/page-2/img-10.jpg", 
   ],
 };

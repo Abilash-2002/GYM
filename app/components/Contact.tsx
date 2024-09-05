@@ -11,7 +11,7 @@ function Contact() {
               We are here for help you! To Shape Your Body.
             </h2>
             <p>
-              At Gymate, we are dedicated to helping you achieve the body of
+              At Vishnu Fitness, we are dedicated to helping you achieve the body of
               your dreams. Our expert trainers and nutritionists will work with
               you to create a personalized fitness and nutrition plan that helps
               you reach your specific goals.
@@ -57,12 +57,12 @@ function Contact() {
                   >
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
-                  <Link
+                  {/* <Link
                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                     className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
                   >
                     <i className="fa-brands fa-pinterest-p"></i>
-                  </Link>
+                  </Link> */}
                   <Link
                     href="https://www.youtube.com"
                     className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
@@ -118,7 +118,7 @@ function Contact() {
             allowFullScreen={false}
             loading="lazy"
             title="map"
-            className="w-full h-[30rem] border-0"
+            className="w-full h-[30rem] border-0  "
           ></iframe>
         </div>
       </div>
