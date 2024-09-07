@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Gymate - Gym",
+  title: "Vishnu Fitness",
   description: "Website for Gym enthusiasts",
 };
 

@@ -16,7 +16,7 @@ function MobileNavbar() {
         } z-50 duration-300 ease-linear p-8 flex items-center justify-center flex-col`}
       >
         <button
-          className="text-3xl absolute top-10 right-10 hover:text-[#ff0336] duration-300 ease-linear"
+          className="text-3xl absolute top-10 right-10 hover:text-[#ae6a78] duration-300 ease-linear"
           onClick={() => setMobileNavbar(false)}
         >
           <i className="fa-solid fa-xmark"></i>
@@ -48,7 +48,7 @@ function MobileNavbar() {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/schedule"
               onClick={() => {
@@ -60,7 +60,7 @@ function MobileNavbar() {
             >
               Schedule
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/gallery"
@@ -74,7 +74,7 @@ function MobileNavbar() {
               Gallery
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/blog"
               onClick={() => {
@@ -86,7 +86,7 @@ function MobileNavbar() {
             >
               Blog
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/contact"
@@ -100,7 +100,7 @@ function MobileNavbar() {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/pricing"
               onClick={() => {
@@ -112,7 +112,7 @@ function MobileNavbar() {
             >
               Pricing
             </Link>
-          </li>
+          </li> 
           <li>
             <Link
               href="/classes"
@@ -125,7 +125,7 @@ function MobileNavbar() {
             >
               Classes
             </Link>
-          </li>
+          </li>*/}
         </ul>
       </nav>
     </section>

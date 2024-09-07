@@ -1,7 +1,36 @@
+'use client';
+
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    service: '',
+    comment: ''
+  });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    setStatus('Sending...');
+
+    emailjs.send('service_4ijv1tu', 'template_2nmzhu3', formData, 'b13M_PNVAxARDchiK')
+      .then((response) => {
+        setStatus('Message sent successfully!');
+        setFormData({ name: '', email: '', service: '', comment: '' });
+      }, (error) => {
+        setStatus('Failed to send message. Please try again.');
+      });
+  };
+
   return (
     <section id="contact">
       <div className="py-16 lg:py-24 flex flex-col gap-16">
@@ -76,40 +105,55 @@ function Contact() {
           <div className="flex flex-col gap-12 mx-8 p-8 bg-[#f8f8f8] relative">
             <h3 className="text-2xl font-bold">Leave Us Your Info</h3>
             <span className="bg-[#ff0336] w-16 h-1 absolute top-[4.5rem]"></span>
-            <div className="flex flex-col gap-6">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-6">
               <input
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
                 className="w-full py-3 px-5 h-[3.125rem] text-[0.875rem] border border-[#e4e4e4]"
                 placeholder="Full Name *"
                 type="text"
+                required
               />
               <input
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
                 className="w-full py-3 px-5 h-[3.125rem] text-[0.875rem] border border-[#e4e4e4]"
                 placeholder="Email Address *"
                 type="email"
+                required
               />
-              <select className="w-full py-3 px-5 h-[3.125rem] text-[#a1a1a1] text-[0.875rem] border border-[#e4e4e4]">
-                <option>Select Class</option>
-                <option>Body Building</option>
-                <option>Boxing</option>
-                <option>Running</option>
-                <option>Fitness</option>
-                <option>Yoga</option>
-                <option>Workout</option>
-                <option>Katate</option>
-                <option>Meditation</option>
-                <option>Cycling</option>
+              <select
+                name="service"
+                value={formData.service}
+                onChange={handleChange}
+                className="w-full py-3 px-5 h-[3.125rem] text-[#a1a1a1] text-[0.875rem] border border-[#e4e4e4]"
+                required
+              >
+                <option value="">Select Service</option>
+                <option value="Body Building">Body Building</option>
+                <option value="Weight Loss">Weight Loss</option>
+                <option value="Fat Loss">Fat Loss</option>
+                <option value="Weight Gain">Weight Gain</option>
+                <option value="Powerlifting">Powerlifting</option>
+                <option value="Crossfit">Crossfit</option>
               </select>
               <textarea
+                name="comment"
+                value={formData.comment}
+                onChange={handleChange}
                 placeholder="Comment"
                 className="w-full py-3 px-5 h-[8rem] text-[0.875rem] border border-[#e4e4e4]"
               ></textarea>
-            </div>
-            <button
-              type="submit"
-              className="text-white bg-[#ff0336] w-fit py-4 px-8 font-bold text-[0.875rem] uppercase self-center"
-            >
-              submit now
-            </button>
+              <button
+                type="submit"
+                className="text-white bg-[#ff0336] w-fit py-4 px-8 font-bold text-[0.875rem] uppercase self-center"
+              >
+                submit now
+              </button>
+            </form>
+            {status && <p className="text-center text-lg font-semibold">{status}</p>}
           </div>
         </div>
         <div className="mt-16">
@@ -118,7 +162,7 @@ function Contact() {
             allowFullScreen={false}
             loading="lazy"
             title="map"
-            className="w-full h-[30rem] border-0  "
+            className="w-full h-[30rem] border-0"
           ></iframe>
         </div>
       </div>

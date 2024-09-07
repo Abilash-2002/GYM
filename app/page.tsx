@@ -12,6 +12,8 @@ import PricingChart from "./components/PricingChart";
 import Sponsors from "./components/Sponsors";
 import WhoWeAre from "./components/WhoWeAre";
 import WhyChooseUs from "./components/WhyChooseUs";
+import Testimonies from "./components/Testimonies";
+
 
 export default function Home() {
   return (
@@ -28,7 +30,8 @@ export default function Home() {
       {/* <Bmi /> */}
       {/* <PricingChart /> */}
       <LatestBlog />
-      <Cta />
+      <Testimonies />
+      {/* <Cta /> */}
       <Footer />
     </main>
   );

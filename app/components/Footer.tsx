@@ -36,6 +36,12 @@ function Footer() {
             >
               <i className="fa-brands fa-twitter"></i>
             </Link>
+            <Link
+              href="https://www.instagram.com"
+              className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </Link>            
             {/* <Link
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"

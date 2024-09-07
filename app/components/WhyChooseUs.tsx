@@ -13,7 +13,7 @@ function WhyChooseUs() {
           We Are Always Providing Best Fitness Service For You
         </h1>
         <Link
-          href="/"
+          href="/contact"
           className="relative flex items-center gap-2 bg-white text-black font-bold px-8 py-4 after:h-[3.5rem] after:absolute after:w-[13rem] after:duration-300 after:ease-linear after:border after:border-[hsla(0,0%,100%,.362)] after:-top-3 after:-right-3 hover:after:top-0 hover:after:right-0"
         >
           <span>JOIN WITH US</span>
@@ -25,13 +25,13 @@ function WhyChooseUs() {
       <div className="text-white px-8 pt-32 lg:grid lg:grid-cols-2 lg:gap-32 max-w-screen-xl m-auto">
         <div className="relative">
           <div className="absolute bottom-0 lg:bottom-24 lg:-left-4 h-[42%] w-2.5 bg-[#ff0336]"></div>
-          <div className="absolute -top-16 lg:top-16 lg:right-0 right-[2.125rem] h-[28.8125rem] w-2.5 bg-[#ff0336] rotate-[174deg]"></div>
+          <div className="absolute -top-16 lg:top-8 lg:right-0 right-[2.125rem] h-[42%] w-2.5 bg-[#ff0336] "></div>
           <Image
-            src="/images/whychooseus/main.png"
+            src="/images/whychooseus/main.jpg"
             alt="why choose us"
             width={1000}
             height={1000}
-            className="m-auto w-60 lg:w-[32rem]"
+            className="m-auto w-60 lg:w-[32rem] h-[90%] rounded-lg mr-6"
           />
         </div>
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left gap-8 py-16 relative">
@@ -94,7 +94,7 @@ function WhyChooseUs() {
               <h1 className="font-bold text-lg">Fresh Bottle Watter</h1>
             </div>
           </div>
-          <div>
+          {/* <div>
             <Link
               href="/"
               className="relative text-white flex items-center gap-2 bg-[#595959] hover:bg-[#ff0336] font-bold px-8 py-4 after:h-[3.5rem] after:absolute after:w-[12.5rem] after:duration-300 after:ease-linear after:border after:border-[rgb(89,89,89)] hover:after:border-[#ff0336] after:-top-3 after:-right-3 hover:after:top-0 hover:after:right-0 my-8"
@@ -104,7 +104,7 @@ function WhyChooseUs() {
                 <i className="fa-solid fa-arrow-right undefined"></i>
               </span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

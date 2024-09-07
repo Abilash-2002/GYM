@@ -7,7 +7,7 @@ function WhoWeAre() {
     <section id="who-we-are">
       <div className="bg-[url('/images/bg/bg.jpg')] bg-[50%] bg-no-repeat bg-cover px-8 pb-16 lg:pb-24 space-y-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 max-w-screen-xl m-auto gap-8 -translate-y-16">
-          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+<div className="bg-white hover:bg-[url('/images/whoweare/first-grid/image.png')] hover:bg-opacity-10 hover:bg-cover hover:bg-transparent hover:bg-no-repeat  hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl " >
             <Image
               src="/images/whoweare/first-grid/img-1.png"
               alt="progression"
@@ -16,11 +16,11 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">PROGRESSION</h1>
             <p className="text-[0.95rem]">
-              Our team of experts will work with you to create a customized plan
-              that helps you achieve success one step at a time.
+            <strong>Our team of experts will work with you to create a customized plan
+              that helps you achieve success one step at a time.</strong>
             </p>
           </div>
-          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/image.png')] hover:bg-cover hover:bg-no-repeat  hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
             <Image
               src="/images/whoweare/first-grid/img-2.png"
               alt="workout"
@@ -29,11 +29,11 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">WORKOUT</h1>
             <p className="text-[0.95rem]">
-              With a variety of workouts to choose from, you'll have everything
-              you need to get into the best shape of your life.
+            <strong>With a variety of workouts to choose from, you'll have everything
+              you need to get into the best shape of your life.</strong>
             </p>
           </div>
-          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/hover.jpg')] hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
+          <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/image.png')] hover:bg-cover hover:bg-no-repeat hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
             <Image
               src="/images/whoweare/first-grid/img-3.png"
               alt="nutritions"
@@ -42,8 +42,8 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">NUTRITIONS</h1>
             <p className="text-[0.95rem]">
-              Our team will work with you to create a personalized meal plan
-              that helps you reach your specific health goals.
+            <strong>Our team will work with you to create a personalized meal plan
+              that helps you reach your specific health goals.</strong>
             </p>
           </div>
         </div>
@@ -107,7 +107,7 @@ function WhoWeAre() {
                 </h1>
               </div>
             </div>
-            <div>
+            {/* <div>
               <Link
                 href="/"
                 className="relative text-white flex items-center gap-2 bg-[#3f3f3f] hover:bg-[#ff0336] font-bold px-8 py-4 after:h-[3.5rem] after:absolute after:w-[12.5rem] after:duration-300 after:ease-linear after:border after:border-[rgba(63,63,63,.362)] hover:after:border-[#ff0336] after:-top-3 after:-right-3 hover:after:top-0 hover:after:right-0"
@@ -117,17 +117,17 @@ function WhoWeAre() {
                   <i className="fa-solid fa-arrow-right undefined"></i>
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="relative hidden lg:block">
             <Image
               width={1000}
               height={1000}
-              src="/images/whoweare/running-girl.png"
+              src="/images/whoweare/about.jpg"
               alt="girl_running"
-              className="absolute w-[34rem] right-[46%] top-[50%] translate-x-1/2 -translate-y-1/2 z-[5]"
+              className="absolute w-[34rem] right-[46%] top-[50%] translate-x-1/2 -translate-y-1/2 z-[5] rounded"
             />
-            <Image
+            {/* <Image
               width={250}
               height={250}
               src="/images/whoweare/half-circle.svg"
@@ -147,7 +147,7 @@ function WhoWeAre() {
               src="/images/whoweare/fart.png"
               alt="bg-wind"
               className="absolute right-[34%] top-[57.5%] translate-x-1/2 -translate-y-1/2"
-            />
+            /> */}
           </div>
         </div>
       </div>

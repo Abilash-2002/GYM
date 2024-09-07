@@ -43,11 +43,11 @@ function WhoWeAreAbout() {
             <Image
               width={1000}
               height={1000}
-              src="/images/whoweare/running-girl.png"
+              src="/images/whoweare-about/about.jpg"
               alt="girl_running"
-              className="absolute w-[34rem] right-[46%] top-[50%] translate-x-1/2 -translate-y-1/2 z-[5]"
+              className="absolute w-[34rem] right-[46%] top-[50%] translate-x-1/2 -translate-y-1/2 z-[5] rounded-xl"
             />
-            <Image
+            {/* <Image
               width={250}
               height={250}
               src="/images/whoweare/half-circle.svg"
@@ -57,7 +57,7 @@ function WhoWeAreAbout() {
             <Image
               width={80}
               height={80}
-              src="/images/whoweare/running-text.png"
+              src="/images/whoweare/about.jpg"
               alt="bg-text"
               className="absolute top-[55%] translate-x-1/2 -translate-y-1/2 right-[78%]"
             />
@@ -67,7 +67,7 @@ function WhoWeAreAbout() {
               src="/images/whoweare/fart.png"
               alt="bg-wind"
               className="absolute right-[34%] top-[57.5%] translate-x-1/2 -translate-y-1/2"
-            />
+            /> */}
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 max-w-screen-xl m-auto">
@@ -86,14 +86,14 @@ function WhoWeAreAbout() {
             </p>
           </div>
           <Image
-            src="/images/whoweare-about/grid-2.jpg"
+            src="/images/whoweare-about/gird-5.jpg"
             alt="who we are"
             width={1000}
             height={1000}
             className="w-full h-full lg:h-[28rem]"
           />
           <Image
-            src="/images/whoweare-about/grid-3.jpg"
+            src="/images/whoweare-about/grid-6.jpg"
             alt="who we are"
             width={1000}
             height={1000}
