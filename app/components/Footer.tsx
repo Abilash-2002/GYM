@@ -61,7 +61,7 @@ function Footer() {
         <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
           <div className="space-y-6">
             <div className="relative">
-              <h1 className="font-bold text-2xl">Our Classes</h1>
+              <h1 className="font-bold text-2xl">Site Map</h1>
               <span className="top-8 left-[5.75rem] lg:left-0 absolute w-16 h-[4px] bg-[#ff0366]"></span>
             </div>
             <div className="flex flex-col gap-4 items-center lg:items-baseline">
