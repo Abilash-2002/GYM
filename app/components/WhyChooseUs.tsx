@@ -24,14 +24,12 @@ function WhyChooseUs() {
       </div>
       <div className="text-white px-8 pt-32 lg:grid lg:grid-cols-2 lg:gap-32 max-w-screen-xl m-auto">
         <div className="relative">
-          <div className="absolute bottom-0 lg:bottom-24 lg:-left-4 h-[42%] w-2.5 bg-[#ff0336]"></div>
-          <div className="absolute -top-16 lg:top-8 lg:right-0 right-[2.125rem] h-[42%] w-2.5 bg-[#ff0336] "></div>
-          <Image
+            <Image
             src="/images/whychooseus/main.jpg"
             alt="why choose us"
             width={1000}
             height={1000}
-            className="m-auto w-60 lg:w-[32rem] h-[90%] rounded-lg mr-6"
+            className="m-auto w-60 lg:w-[32rem] h-[90%] rounded-lg "
           />
         </div>
         <div className="flex flex-col items-center text-center lg:items-start lg:text-left gap-8 py-16 relative">
@@ -47,10 +45,7 @@ function WhyChooseUs() {
             We Can Give A Shape Of Your Body Here!
           </h1>
           <p className="text-[#b4b4b4]">
-            At <strong>Gymate</strong>, we are dedicated to helping you achieve
-            the body of your dreams. Our expert trainers and nutritionists will
-            work with you to create a personalized fitness and nutrition plan
-            that helps you reach your specific goals.
+          At <strong>Vishnu Personal Training</strong>, I’m dedicated to helping you achieve the body of your dreams. I’ll work with you to create a personalized fitness and nutrition plan tailored to your specific goals.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-12 lg:px-0">
             <div className="flex items-center gap-4">
@@ -61,7 +56,7 @@ function WhyChooseUs() {
                 height={70}
                 className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-linear duration-300 rounded-full p-4"
               />
-              <h1 className="font-bold text-lg">Free Fitness Training</h1>
+              <h1 className="font-bold text-lg">Professional Fitness Training</h1>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -71,7 +66,7 @@ function WhyChooseUs() {
                 height={70}
                 className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-linear duration-300 rounded-full p-4"
               />
-              <h1 className="font-bold text-lg">Modern Gym Equipments</h1>
+              <h1 className="font-bold text-lg">Expertise In Gym Equipments</h1>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -81,7 +76,7 @@ function WhyChooseUs() {
                 height={70}
                 className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-linear duration-300 rounded-full p-4"
               />
-              <h1 className="font-bold text-lg">Gym Bag Equipments</h1>
+              <h1 className="font-bold text-lg">Acessories Advisory</h1>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -91,7 +86,7 @@ function WhyChooseUs() {
                 height={70}
                 className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-linear duration-300 rounded-full p-4"
               />
-              <h1 className="font-bold text-lg">Fresh Bottle Watter</h1>
+              <h1 className="font-bold text-lg">Nutritious Diet Plans</h1>
             </div>
           </div>
           {/* <div>

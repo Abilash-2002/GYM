@@ -17,27 +17,26 @@ function Footer() {
                 className="m-auto lg:m-0"
               />
             </div> */}
-            <h1 className="font-serif text-2xl"> VIGNESH FITNESS</h1>
+            <h1 className="font-serif text-2xl"> VISHNU FITNESS</h1>
             <p className="text-[0.9rem]">
-              Take your health and body to the next level with our comprehensive
-              program designed to help you reach your fitness goals.
+            Take your fitness journey to the next level with my personalized training program. Let's transform your body and elevate your fitness together!
             </p>
           </div>
           <div className="flex items-center gap-4 justify-center lg:justify-start">
             <Link
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/share/a3d2rqGogJ7n4ieH/?mibextid=LQQJ4d"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
             >
               <i className="fa-brands fa-facebook-f"></i>
             </Link>
-            <Link
+            {/*<Link
               href="https://www.twitter.com"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
             >
               <i className="fa-brands fa-twitter"></i>
-            </Link>
+            </Link>*/}
             <Link
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/vis_hnu_gopal?igsh=OWlpeHM2bWVldTF6&utm_source=qr"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
             >
               <i className="fa-brands fa-instagram"></i>
@@ -48,12 +47,12 @@ function Footer() {
             >
               <i className="fa-brands fa-pinterest-p"></i>
             </Link> */}
-            <Link
+            {/*<Link
               href="https://www.youtube.com"
               className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
             >
               <i className="fa-brands fa-youtube"></i>
-            </Link>
+            </Link>*/} 
           </div>
           <div>
             <p>Privacy Policy | © {new Date().getFullYear()} Vishnu Fitness</p>
@@ -90,13 +89,7 @@ function Footer() {
             </div>
             <div className="space-y-2">
               <p>
-                <span className="font-bold">Mon - Fri:</span> 7:00AM - 9:00PM
-              </p>
-              <p>
-                <span className="font-bold">Sat:</span> 7:00AM - 7:00PM
-              </p>
-              <p>
-                <span className="font-bold">Sun:</span> Closed
+                <span className="font-bold">Everyday :</span> Flexible Timings
               </p>
             </div>
           </div>

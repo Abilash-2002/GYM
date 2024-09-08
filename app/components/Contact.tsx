@@ -22,7 +22,7 @@ function Contact() {
     e.preventDefault();
     setStatus('Sending...');
 
-    emailjs.send('service_4ijv1tu', 'template_2nmzhu3', formData, 'b13M_PNVAxARDchiK')
+    emailjs.send('service_9i8quf8', 'template_58k40aj', formData, 'FoC7axTzHmgeDPznK')
       .then((response) => {
         setStatus('Message sent successfully!');
         setFormData({ name: '', email: '', service: '', comment: '' });
@@ -40,34 +40,29 @@ function Contact() {
               We are here for help you! To Shape Your Body.
             </h2>
             <p>
-              At Vishnu Fitness, we are dedicated to helping you achieve the body of
-              your dreams. Our expert trainers and nutritionists will work with
-              you to create a personalized fitness and nutrition plan that helps
-              you reach your specific goals.
+              At Vishnu Fitness, I'll work with you one-on-one to tailor a plan that aligns with your goals and helps you achieve peak health and performance. 
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div className="flex flex-col relative space-y-6">
-                <h3 className="text-xl font-bold">New York City, USA</h3>
+                <h3 className="text-xl font-bold">Place Of Work</h3>
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute top-2"></span>
                 <p>
-                  85 Briston Mint Street,
-                  <br /> London, E1 8LG, USA
+                  Personal Training <br/>All over Dubai
                 </p>
               </div>
               <div className="flex flex-col relative space-y-6">
-                <h3 className="text-xl font-bold">Opening Hours</h3>
+                <h3 className="text-xl font-bold">Training Hours</h3>
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute top-2"></span>
                 <p>
-                  Mon to Fri: 7:30 am — 1:00 am
-                  <br /> Sat to Sun: 8:30 am — 11:00 pm
+                  Training at Flexible Hours
                 </p>
               </div>
               <div className="flex flex-col relative space-y-6">
                 <h3 className="text-xl font-bold">Information</h3>
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute top-2"></span>
                 <p>
-                  +800-123-4567
-                  <br /> gymat@gymail.com
+                  +971-55-344-8198
+                  <br /> Vg7vishnu@@gmail.com
                 </p>
               </div>
               <div className="flex flex-col relative space-y-8">
@@ -75,16 +70,16 @@ function Contact() {
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute"></span>
                 <div className="flex items-center gap-4 lg:gap-3">
                   <Link
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/share/a3d2rqGogJ7n4ieH/?mibextid=LQQJ4d"
                     className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
                   >
                     <i className="fa-brands fa-facebook-f"></i>
                   </Link>
                   <Link
-                    href="https://www.twitter.com"
+                    href="https://www.instagram.com/vis_hnu_gopal?igsh=OWlpeHM2bWVldTF6&utm_source=qr"
                     className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
                   >
-                    <i className="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </Link>
                   {/* <Link
                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -92,12 +87,12 @@ function Contact() {
                   >
                     <i className="fa-brands fa-pinterest-p"></i>
                   </Link> */}
-                  <Link
+                 {/* <Link
                     href="https://www.youtube.com"
                     className="bg-[#efefef] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#ff0366] hover:text-white duration-300 ease-linear"
                   >
                     <i className="fa-brands fa-youtube"></i>
-                  </Link>
+                  </Link>*/}
                 </div>
               </div>
             </div>
@@ -156,7 +151,7 @@ function Contact() {
             {status && <p className="text-center text-lg font-semibold">{status}</p>}
           </div>
         </div>
-        <div className="mt-16">
+       {/* <div className="mt-16">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1572675.7595829577!2d-105.02573624935042!3d39.65798807664909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c5fe2e6306ccd%3A0xa6b400a73beef706!2sDenver%20County%2C%20Denver%2C%20CO%2C%20USA!5e0!3m2!1sen!2srs!4v1673981026796!5m2!1sen!2srs"
             allowFullScreen={false}
@@ -164,7 +159,7 @@ function Contact() {
             title="map"
             className="w-full h-[30rem] border-0"
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -27,8 +27,7 @@ function FeaturedClass() {
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Weight Loss</h1>
               <p className="bg-[#ff0336] px-4 py-1">
-                Wednesday: 9:00am-10:00am
-              </p>
+Flexible Timings         </p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
@@ -36,7 +35,7 @@ function FeaturedClass() {
             <div className="absolute inset-0 bg-[url('/images/featured-class/karate/bg.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Body Building</h1>
-              <p className="bg-[#ff0336] px-4 py-1">Friday: 10:00am-11:00am</p>
+              <p className="bg-[#ff0336] px-4 py-1">Flexible Timings</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
@@ -44,7 +43,7 @@ function FeaturedClass() {
             <div className="absolute inset-0 bg-[url('/images/featured-class/power/bg1.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Powerlifting</h1>
-              <p className="bg-[#ff0336] px-4 py-1">Saturday: 9:00am-10:00am</p>
+              <p className="bg-[#ff0336] px-4 py-1">Flexible Timings</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
@@ -52,7 +51,7 @@ function FeaturedClass() {
             <div className="absolute inset-0 bg-[url('/images/featured-class/meditation/bg.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Weight Gain</h1>
-              <p className="bg-[#ff0336] px-4 py-1">Friday: 1:00pm-2:00pm</p>
+              <p className="bg-[#ff0336] px-4 py-1">Flexible Timings</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
@@ -60,7 +59,7 @@ function FeaturedClass() {
             <div className="absolute inset-0 bg-[url('/images/featured-class/martial-arts/bg.jpg')] bg-cover bg-[100%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">CrossFit</h1>
-              <p className="bg-[#ff0336] px-4 py-1">Sunday: 6:00pm-7:00pm</p>
+              <p className="bg-[#ff0336] px-4 py-1">Flexible Timings</p>
             </div>
           </div>
           <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
@@ -68,7 +67,7 @@ function FeaturedClass() {
             <div className="absolute inset-0 bg-[url('/images/featured-class/workout/bg.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Fat Loss</h1>
-              <p className="bg-[#ff0336] px-4 py-1">Monday: 4:00pm-5:00pm</p>
+              <p className="bg-[#ff0336] px-4 py-1">Flexible Timings</p>
             </div>
           </div>
         </div>

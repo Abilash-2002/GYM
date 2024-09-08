@@ -16,8 +16,7 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">PROGRESSION</h1>
             <p className="text-[0.95rem]">
-            <strong>Our team of experts will work with you to create a customized plan
-              that helps you achieve success one step at a time.</strong>
+            <strong>I’ll work with you to create a customized plan that helps you achieve success one step at a time.</strong>
             </p>
           </div>
           <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/image.png')] hover:bg-cover hover:bg-no-repeat  hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
@@ -42,8 +41,8 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">NUTRITIONS</h1>
             <p className="text-[0.95rem]">
-            <strong>Our team will work with you to create a personalized meal plan
-              that helps you reach your specific health goals.</strong>
+            <strong>
+            I’ll create a personalized meal plan just for you, designed to meet your specific health goals and fit seamlessly into your lifestyle.</strong>
             </p>
           </div>
         </div>
@@ -77,7 +76,7 @@ function WhoWeAre() {
                 <h1 className="font-bold text-xl">
                   PROFESSIONAL
                   <br />
-                  TRAINERS
+                  TRAINER
                 </h1>
               </div>
               <div className="flex flex-col items-center gap-4 lg:border-x lg:border-[rgb(0,0,0,0.2)] lg:px-12">
@@ -88,9 +87,9 @@ function WhoWeAre() {
                   height={60}
                 />
                 <h1 className="font-bold text-xl">
-                  MODERN
+                  EXPERT
                   <br />
-                  EQUIPMENTS
+                  WORKOUTS
                 </h1>
               </div>
               <div className="flex flex-col items-center gap-4">
@@ -101,9 +100,9 @@ function WhoWeAre() {
                   height={60}
                 />
                 <h1 className="font-bold text-xl">
-                  FANCY GYM
+                  PERSONALISED
                   <br />
-                  MACHINES
+                  ROUTINES
                 </h1>
               </div>
             </div>

@@ -28,7 +28,7 @@ function Testimonies() {
                 Kamal
               </h3>
               </div>
-              <h1 className="text-xl font-bold">Yoga For Everyone in 2023</h1>
+              <h1 className="text-xl font-bold"> Genuine Results !!!</h1>
               <p className="-mt-2">
                 This is program designed to make the practice of yoga beneficial
                 for people of all ages, abilities, and backgrounds.
@@ -58,8 +58,7 @@ function Testimonies() {
                 Exceptional Training !!!
               </h1>
               <p className="-mt-2">
-                Learn how to ease back into your CrossFit routine after a
-                vacation with tips and strategies for success.
+              Exceptional Training by Vishnu offers unparalleled guidance ensuring remarkable results.
               </p>
             </div>
             <div>
@@ -83,12 +82,10 @@ function Testimonies() {
               </h3>
               </div>
               <h1 className="text-xl font-bold">
-                ExtraOrdinary Classes!!!
+                ExtraOrdinary Classes !!!
               </h1>
               <p className="-mt-2">
-                Get to know Grace, a fitness enthusiast and dedicated ambassador
-                who is passionate about helping others reach their fitness
-                goals.
+              Exceptional Workouts with trainer offer a distinctive and powerful training experience, helping you exceed your limits.
               </p>
             </div>
             <div>

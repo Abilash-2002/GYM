@@ -5,15 +5,15 @@ import React from "react";
 function Hero() {
   return (
     <section id="hero">
-      <div className="h-[110vh] bg-[url('/images/hero/bg.jpg')] bg-[50%] bg-cover flex justify-center items-center text-white p-8">
-        <div className="hidden lg:flex gap-4 flex-row-reverse -rotate-90 text-white absolute top-2/4 -right-8 items-center">
-          <p className="uppercase text-xl font-bold tracking-widest">share</p>
+      <div className="h-[110vh] bg-[url('/images/bg/image.png')] bg-[50%] bg-cover flex justify-end items-center text-white px-16 ">
+        <div className="hidden lg:flex gap-4 flex-row-reverse -rotate-90 text-white absolute top-2/4 items-center">
+          {/* <p className="uppercase text-xl font-bold tracking-widest">share</p>
           <span className="w-10 bg-[#FF0336] h-[0.1563rem]"></span>
           <div className="text-white gap-4 flex">
             <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-facebook text-xl cursor-pointer ease-in duration-200 "></i>
             <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-twitter text-xl cursor-pointer ease-in duration-200"></i>
             <i className="fa-brands rotate-90 hover:text-[#FF0336] fa-linkedin-in text-xl cursor-pointer ease-in duration-200 "></i>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col gap-12 items-center lg:items-start relative lg:ml-[36rem]">
           <Image
@@ -26,10 +26,9 @@ function Hero() {
           />
           <p className="text-black z-10 font-semibold text-lg lg:ml-11">
             FIND YOUR ENERGY
-          </p>
-          <h1 className="font-bold text-[2.5rem] lg:text-5xl flex flex-col gap-2 text-center lg:text-left leading-snug lg:space-y-2">
-            <span>MAKE YOUR BODY</span>{" "}
-            <span className="font-normal">FIT & PERFECT</span>
+          </p>  
+          <h1 className="font-bold text-[1.5rem] lg:text-4xl flex flex-col text-center lg:text-left leading-snug lg:space-y-2 lg:ml-10">
+            <span>Freelance Personal<br/>Trainer Professional<br/></span>{" "}
           </h1>
           {/* <Link
             href="/"

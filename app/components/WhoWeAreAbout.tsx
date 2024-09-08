@@ -21,11 +21,8 @@ function WhoWeAreAbout() {
             <h1 className="font-bold text-4xl">
               We Will Give You Strength and Health
             </h1>
-            <p>
-              At Gymate, we are dedicated to helping you achieve the body of
-              your dreams. Our expert trainers and nutritionists will work with
-              you to create a personalized fitness and nutrition plan that helps
-              you reach your specific goals.
+            <p>          At <strong>Vishnu Personal Training</strong>, I’m dedicated to helping you achieve the body of your dreams. I’ll work with you to create a personalized fitness and nutrition plan tailored to your specific goals.
+
             </p>
             <div>
               <Link
@@ -78,11 +75,9 @@ function WhoWeAreAbout() {
               width={100}
               height={100}
             />
-            <h1 className="text-4xl font-bold">Our History</h1>
+            <h1 className="text-4xl font-bold">Our Motive</h1>
             <p className="lg:px-20">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit
-              Exercitation veniam consequat.
+            With years of experience and a track record of exceptional results, I am dedicated to using my expertise to turn your fitness goals into reality.
             </p>
           </div>
           <Image
@@ -106,11 +101,11 @@ function WhoWeAreAbout() {
               width={100}
               height={100}
             />
-            <h1 className="text-4xl font-bold">Our History</h1>
+            <h1 className="text-4xl font-bold">Services Offered</h1>
             <p className="lg:px-20">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit
-              Exercitation veniam consequat.
+            Body Building I Fat Loss Expert I Mass Gaining
+Weight Loss I Functional Training I Strengthening I Diet Counseling
+Hypertrophy Training I Core Training I Online Training
             </p>
           </div>
         </div>

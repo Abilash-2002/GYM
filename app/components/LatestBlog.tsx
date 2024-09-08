@@ -23,7 +23,7 @@ function LatestBlog() {
           <div className="bg-white shadow-xl flex flex-col gap-6 lg:justify-between rounded-xl">
             <div className="flex flex-col gap-6">
             <Image
-                src="/images/whychooseus/grid-2.png"
+                src="/images/whychooseus/post-1.jpg"
                 alt="Modern Gym Equipments"
                 width={1000}
                 height={1000}
@@ -34,7 +34,7 @@ function LatestBlog() {
           <div className="bg-white shadow-xl flex flex-col gap-6 lg:justify-between rounded-xl">
             <div className="flex flex-col gap-6">
             <Image
-                src="/images/whychooseus/grid-2.png"
+                src="/images/whychooseus/post-2.jpg"
                 alt="Modern Gym Equipments"
                 width={1000}
                 height={1000}
@@ -45,7 +45,7 @@ function LatestBlog() {
             <div className="bg-white shadow-xl flex flex-col gap-6 lg:justify-between rounded-xl">
             <div className="flex flex-col gap-6">
             <Image
-                src="/images/whychooseus/grid-2.png"
+                src="/images/whychooseus/post-3.jpg"
                 alt="Modern Gym Equipments"
                 width={1000}
                 height={1000}

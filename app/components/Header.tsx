@@ -31,7 +31,7 @@ function Header() {
         ref={headerRef}
       >
         <div>
-        <h1 className="px-4 font-serif text-2xl"> VIGNESH FITNESS</h1>
+        <h1 className="px-4 font-serif text-2xl"> VISHNU FITNESS</h1>
           {/* <Link href="/">
             <Image
               src="/images/logo/logo-white.svg"
@@ -84,6 +84,12 @@ function Header() {
           </Link> */}
           </div>
         <div className="flex items-center gap-6">
+           <button
+            onClick={() => setMobileNavbar(true)}
+            className="text-2xl hover:text-[#FF0336] ease-in duration-200 lg:hidden"
+          >
+            <i className="fa-solid fa-bars"></i>
+          </button>
           <Link
             className="border-[rgb(255,255,255,0.3)] border-2 py-2 px-2 rounded-md group hidden lg:flex items-center gap-4"
             href="/contact"
