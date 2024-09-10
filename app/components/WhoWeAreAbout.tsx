@@ -19,14 +19,14 @@ function WhoWeAreAbout() {
               ABOUT ME
             </p>
             <h1 className="font-bold text-4xl">
-              We Will Give You Strength and Health
+              I Will Give You Strength and Health
             </h1>
             <p>          At <strong>Vishnu Personal Training</strong>, I’m dedicated to helping you achieve the body of your dreams. I’ll work with you to create a personalized fitness and nutrition plan tailored to your specific goals.
 
             </p>
             <div>
               <Link
-                href="/"
+                href="/contact"
                 className="relative text-white flex items-center gap-2 bg-[#ff0336] font-bold px-8 py-4 after:h-[3.5rem] after:absolute after:w-[12rem] after:duration-300 after:ease-linear after:border after:border-[#ff0336] hover:after:border-[#ff0336] after:-top-3 after:-right-4 hover:after:top-0 hover:after:right-0 mt-4"
               >
                 <span>CONTACT US</span>
@@ -75,9 +75,9 @@ function WhoWeAreAbout() {
               width={100}
               height={100}
             />
-            <h1 className="text-4xl font-bold">Our Motive</h1>
+            <h1 className="text-4xl font-bold">My Motive</h1>
             <p className="lg:px-20">
-            With years of experience and a track record of exceptional results, I am dedicated to using my expertise to turn your fitness goals into reality.
+            With years of experience and a track record of exceptional results, I am dedicated to use my expertise to turn your fitness goals into reality.
             </p>
           </div>
           <Image

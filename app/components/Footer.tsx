@@ -62,7 +62,7 @@ function Footer() {
           <div className="space-y-6">
             <div className="relative">
               <h1 className="font-bold text-2xl">Site Map</h1>
-              <span className="top-8 left-[5.75rem] lg:left-0 absolute w-16 h-[4px] bg-[#ff0366]"></span>
+              <span className="top-8 left-[6.25rem] lg:left-0 absolute w-32 h-[4px] bg-[#ff0366]"></span>
             </div>
             <div className="flex flex-col gap-4 items-center lg:items-baseline">
               <Link href="/about" className="hover:text-[#ff0336] hover:font-bold">
@@ -85,7 +85,7 @@ function Footer() {
           <div className="space-y-6">
             <div className="relative">
               <h1 className="font-bold text-2xl">Working Hours</h1>
-              <span className="top-8 left-[4.45rem] lg:left-0 absolute w-16 h-[4px] bg-[#ff0366]"></span>
+              <span className="top-8 left-[4rem] lg:left-0 absolute w-52 h-[4px] bg-[#ff0366]"></span>
             </div>
             <div className="space-y-2">
               <p>

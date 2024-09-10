@@ -40,7 +40,7 @@ function WhyChooseUs() {
             height={250}
             className="absolute left-9 lg:left-0 top-14"
           />
-          <h3 className="font-bold z-10 lg:translate-x-14">WHY CHOOSE US</h3>
+          <h3 className="font-bold z-10 lg:translate-x-14">WHY CHOOSE ME</h3>
           <h1 className="font-bold text-4xl">
             I Can Provide A Shape Of Your Body Here!
           </h1>
@@ -76,7 +76,7 @@ function WhyChooseUs() {
                 height={70}
                 className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-linear duration-300 rounded-full p-4"
               />
-              <h1 className="font-bold text-lg">Acessories Advisory</h1>
+              <h1 className="font-bold text-lg">Accessories Advisory</h1>
             </div>
             <div className="flex items-center gap-4">
               <Image

@@ -37,7 +37,7 @@ function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-16 lg:gap-0 max-w-screen-xl m-auto">
           <div className="space-y-8 mx-8">
             <h2 className="text-black text-[2rem] font-bold leading-[1.2]">
-              We are here for help you! To Shape Your Body.
+              I am here to help you! To Shape Your Body.
             </h2>
             <p>
               At Vishnu Fitness, I'll work with you one-on-one to tailor a plan that aligns with your goals and helps you achieve peak health and performance. 

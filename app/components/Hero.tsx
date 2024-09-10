@@ -5,8 +5,8 @@ import React from "react";
 function Hero() {
   return (
     <section id="hero">
-      <div className="h-screen w-screen bg-[url('/images/bg/image.png')] bg-[50%] bg-cover flex justify-end items-center text-white px-16 relative ">
-        <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-65"></div>
+      <div className="h-screen w-screen bg-[url('/images/bg/image.jpg')] bg-[50%] bg-cover flex justify-end items-center text-white px-16 relative ">
+        <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75"></div>
         <div className="hidden lg:flex gap-4 flex-row-reverse -rotate-90 text-white absolute top-2/4 items-center">
           {/* <p className="uppercase text-xl font-bold tracking-widest">share</p>
           <span className="w-10 bg-[#FF0336] h-[0.1563rem]"></span>

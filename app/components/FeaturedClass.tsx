@@ -18,7 +18,7 @@ function FeaturedClass() {
           </p>
         </div>
         <h1 className="font-bold text-4xl text-center">
-          We Are Offering Best Flexible Classes
+          I am Offering Best Flexible Classes
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 lg:mt-4">
           <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
