@@ -16,7 +16,7 @@ function WhoWeAreAbout() {
               className="absolute left-[3.75rem] -top-1.5 lg:left-0"
             />
             <p className="text-white relative z-10 font-bold text-center lg:translate-x-10">
-              WHO WE ARE
+              ABOUT ME
             </p>
             <h1 className="font-bold text-4xl">
               We Will Give You Strength and Health

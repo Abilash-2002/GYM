@@ -10,13 +10,13 @@ function WhyChooseUs() {
     >
       <div className="bg-[#ff0336] lg:bg-[url('/images/whychooseus/red-bg.png')] bg-[50%] bg-cover bg-no-repeat lg:h-[16rem] py-8 px-12 flex flex-col lg:flex-row items-center gap-8 text-center lg:text-left lg:gap-32">
         <h1 className="text-white font-bold text-2xl lg:text-4xl lg:w-[42rem] lg:leading-snug">
-          We Are Always Providing Best Fitness Service For You
+          Always Providing Best Fitness Service For You
         </h1>
         <Link
           href="/contact"
           className="relative flex items-center gap-2 bg-white text-black font-bold px-8 py-4 after:h-[3.5rem] after:absolute after:w-[13rem] after:duration-300 after:ease-linear after:border after:border-[hsla(0,0%,100%,.362)] after:-top-3 after:-right-3 hover:after:top-0 hover:after:right-0"
         >
-          <span>JOIN WITH US</span>
+          <span>JOIN WITH ME</span>
           <span className="text-[#FF0336]">
             <i className="fa-solid fa-arrow-right undefined"></i>
           </span>
@@ -42,10 +42,10 @@ function WhyChooseUs() {
           />
           <h3 className="font-bold z-10 lg:translate-x-14">WHY CHOOSE US</h3>
           <h1 className="font-bold text-4xl">
-            We Can Give A Shape Of Your Body Here!
+            I Can Provide A Shape Of Your Body Here!
           </h1>
           <p className="text-[#b4b4b4]">
-          At <strong>Vishnu Personal Training</strong>, I’m dedicated to helping you achieve the body of your dreams. I’ll work with you to create a personalized fitness and nutrition plan tailored to your specific goals.
+          At <strong>Vishnu Personal Training</strong>, I’m Dedicated To Help You Achieve The Body Of Your Dreams. I’ll work with you to create a personalized fitness and nutrition plan tailored to your specific goals.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-12 lg:px-0">
             <div className="flex items-center gap-4">

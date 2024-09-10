@@ -14,7 +14,7 @@ function FeaturedClass() {
             className="absolute left-[1.65rem] lg:left-[39.25%] -top-2.5"
           />
           <p className="text-white relative z-10 font-bold text-center">
-            OUR FEATURED CLASS
+            FEATURED CLASSES
           </p>
         </div>
         <h1 className="font-bold text-4xl text-center">

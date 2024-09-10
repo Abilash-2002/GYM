@@ -16,7 +16,7 @@ function WhoWeAre() {
             />
             <h1 className="font-bold text-2xl">PROGRESSION</h1>
             <p className="text-[0.95rem]">
-            <strong>I’ll work with you to create a customized plan that helps you achieve success one step at a time.</strong>
+            <strong>I'll work with you to create a customized plan that helps you achieve success </strong>
             </p>
           </div>
           <div className="bg-white hover:bg-[url('/images/whoweare/first-grid/image.png')] hover:bg-cover hover:bg-no-repeat  hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl">
@@ -42,7 +42,7 @@ function WhoWeAre() {
             <h1 className="font-bold text-2xl">NUTRITIONS</h1>
             <p className="text-[0.95rem]">
             <strong>
-            I’ll create a personalized meal plan just for you, designed to meet your specific health goals and fit seamlessly into your lifestyle.</strong>
+            I'll create a personalized meal plan just for you, designed to meet your specific health goals and fit seamlessly into your lifestyle.</strong>
             </p>
           </div>
         </div>
@@ -56,13 +56,13 @@ function WhoWeAre() {
               className="absolute left-[3.75rem] -top-1.5 lg:left-0"
             />
             <p className="text-white relative z-10 font-bold text-center lg:translate-x-10">
-              WHO WE ARE
+              ABOUT ME
             </p>
             <h1 className="font-bold text-4xl">
               Take Your Health And Body To Next Level
             </h1>
             <p>
-              Take your health and body to the next level with our comprehensive
+              Take your health and body to the next level with my comprehensive
               program designed to help you reach your fitness goals.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-0 lg:text-center gap-8 my-8">

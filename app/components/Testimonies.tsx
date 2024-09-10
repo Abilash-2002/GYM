@@ -15,7 +15,7 @@ function Testimonies() {
             className="absolute left-[3.75rem] lg:left-[39.25rem] -top-1.5"
           />
           <p className="text-white relative z-10 font-bold text-right mb-4 ">
-            TESTIMONIES
+            TESTIMONIALS
           </p>
           <h1 className="font-bold text-4xl text-red-700 ">Our Recent Testimonies</h1>
         </div>
@@ -30,8 +30,7 @@ function Testimonies() {
               </div>
               <h1 className="text-xl font-bold"> Genuine Results !!!</h1>
               <p className="-mt-2">
-                This is program designed to make the practice of yoga beneficial
-                for people of all ages, abilities, and backgrounds.
+              This is a program designed to achieve your goals by concentrating on your health and fitness.
               </p>
             </div>
             <div>
