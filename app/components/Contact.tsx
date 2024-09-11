@@ -62,11 +62,11 @@ function Contact() {
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute top-2"></span>
                 <p>
                   +971-55-344-8198
-                  <br /> Vg7vishnu@@gmail.com
+                  <br /> vishnugopal789@gmail.com
                 </p>
               </div>
               <div className="flex flex-col relative space-y-8">
-                <h3 className="text-xl font-bold">Follow Us On</h3>
+                <h3 className="text-xl font-bold">Follow Me On</h3>
                 <span className="bg-[#ff0336] w-[3.25rem] h-1 absolute"></span>
                 <div className="flex items-center gap-4 lg:gap-3">
                   <Link
@@ -98,7 +98,7 @@ function Contact() {
             </div>
           </div>
           <div className="flex flex-col gap-12 mx-8 p-8 bg-[#f8f8f8] relative">
-            <h3 className="text-2xl font-bold">Leave Us Your Info</h3>
+            <h3 className="text-2xl font-bold">Leave Me Your Info</h3>
             <span className="bg-[#ff0336] w-16 h-1 absolute top-[4.5rem]"></span>
             <form onSubmit={handleSubmit} className="flex flex-col gap-6">
               <input

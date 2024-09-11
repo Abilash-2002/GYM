@@ -53,9 +53,9 @@ function WhoWeAre() {
               alt="abstract"
               width={200}
               height={200}
-              className="absolute left-[3.75rem] -top-1.5 lg:left-0"
+              className="relative align-middle justify-center -top-1.5"
             />
-            <p className="text-white relative z-10 font-bold text-center lg:translate-x-10">
+            <p className="absolute text-white z-10 font-bold text-center lg:translate-x-10">
               ABOUT ME
             </p>
             <h1 className="font-bold text-4xl">

@@ -38,9 +38,9 @@ function WhyChooseUs() {
             alt="abstract"
             width={250}
             height={250}
-            className="absolute left-9 lg:left-0 top-14"
+            className="relative align-middle justify-center -top-1.5"
           />
-          <h3 className="font-bold z-10 lg:translate-x-14">WHY CHOOSE ME</h3>
+          <h3 className="absolute font-bold z-10 lg:translate-x-14">WHY CHOOSE ME</h3>
           <h1 className="font-bold text-4xl">
             I Can Provide A Shape Of Your Body Here!
           </h1>

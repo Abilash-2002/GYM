@@ -8,14 +8,14 @@ function WhoWeAreAbout() {
       <div className="px-8 py-16 space-y-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:py-32 max-w-screen-xl m-auto">
           <div className="relative flex flex-col gap-6 items-center text-center lg:items-start lg:text-left">
-            <Image
+          <Image
               src="/images/abstract/abstract.svg"
               alt="abstract"
               width={200}
               height={200}
-              className="absolute left-[3.75rem] -top-1.5 lg:left-0"
+              className="relative align-middle justify-center -top-1.5"
             />
-            <p className="text-white relative z-10 font-bold text-center lg:translate-x-10">
+            <p className="absolute text-white z-10 font-bold text-center lg:translate-x-10">
               ABOUT ME
             </p>
             <h1 className="font-bold text-4xl">

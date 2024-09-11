@@ -158,5 +158,6 @@ export const gallery = {
     "/images/gallery/page-2/img-8.jpg",
     "/images/gallery/page-2/img-9.jpg", 
     "/images/gallery/page-2/img-10.jpg", 
+    "/images/gallery/page-2/img-11.jpg",
   ],
 };

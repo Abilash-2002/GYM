@@ -15,7 +15,7 @@ function LatestBlog() {
             className="relative align-middle justify-center -top-1.5"
           />
           <p className="absolute text-white z-10 font-bold text-center mb-4">
-            LATEST BLOG
+            POSTS
           </p>
           <h1 className=" font-bold text-4xl">My Recent Posts</h1>
         </div>

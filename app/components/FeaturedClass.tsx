@@ -4,17 +4,17 @@ import React from "react";
 function FeaturedClass() {
   return (
     <section id="featured-class">
-      <div className="px-8 py-16 flex flex-col gap-8 max-w-screen-xl m-auto lg:px-0 lg:py-24">
-        <div className="relative">
+      <div className="relative px-8 py-16 flex flex-col gap-8 max-w-screen-xl m-auto lg:px-0 lg:py-24">
+      <div className="flex flex-col gap-4 items-center text-center">
           <Image
             src="/images/abstract/abstract.svg"
             alt="abstract"
-            width={270}
-            height={270}
-            className="absolute left-[1.65rem] lg:left-[39.25%] -top-2.5"
+            width={200}
+            height={200}
+            className="relative align-middle justify-center -top-1.5"
           />
-          <p className="text-white relative z-10 font-bold text-center">
-            FEATURED CLASSES
+          <p className="absolute text-white z-10  font-bold text-right mb-4 ">
+            FEATURED CLASS
           </p>
         </div>
         <h1 className="font-bold text-4xl text-center">

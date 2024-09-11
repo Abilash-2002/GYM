@@ -1,11 +1,42 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+
+// Define the ResponsiveBackground component
 
 function Hero() {
+  const [bgImage, setBgImage] = useState('/images/bg/image.jpg');
+
+ useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+
+      if (width <= 768) {
+        setBgImage('/images/bg/small.jpg');
+      } else {
+        setBgImage('/images/bg/image.jpg');
+      }
+    };
+
+    handleResize(); // Set the initial background image based on the current window size
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section id="hero">
-      <div className="h-screen w-screen bg-[url('/images/bg/image.jpg')] bg-[50%] bg-cover flex justify-end items-center text-white px-16 relative ">
+      <div
+        className="h-screen w-screen bg-cover bg-[50%] flex justify-end items-center text-white px-16 relative"
+        style={{
+          backgroundImage: `url(${bgImage})`,
+          backgroundPosition: '50%',
+        }}
+      >
         <div className="absolute top-0 bottom-0 left-0 right-0 bg-black opacity-75"></div>
         <div className="hidden lg:flex gap-4 flex-row-reverse -rotate-90 text-white absolute top-2/4 items-center">
           {/* <p className="uppercase text-xl font-bold tracking-widest">share</p>
@@ -45,5 +76,4 @@ function Hero() {
     </section>
   );
 }
-
 export default Hero;
