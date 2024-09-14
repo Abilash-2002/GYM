@@ -48,19 +48,22 @@ function Hero() {
           </div> */}
         </div>
         <div className="flex flex-col gap-12 items-center lg:items-start relative lg:ml-[36rem]">
+        <p className="text-white z-10  text-lg align-middle text-center justify-center lg:ml-11 font-bold lg:text-2xl">
+          WAKE UP IT'S TIME TO
+          </p>
           <Image
             src="/images/abstract/abstract.svg"
             alt="abstract"
             width={270}
             height={270}
-            className="absolute left-5.5 lg:left-0 -top-2.5"
+            className="absolute left-5.5 lg:left-0 -top-8.5 pt-16"
             style={{ filter: "brightness(0) invert(1)" }}
           />
-          <p className="text-black z-10 font-semibold text-lg lg:ml-11">
-            FIND YOUR ENERGY
+          <p className="text-black z-10 font-semibold text-lg text-center  pl-2 lg:ml-11">
+          TAKE THE ACTION
           </p>  
           <h1 className="font-bold text-[1.5rem] lg:text-4xl flex flex-col text-center lg:text-left leading-snug lg:space-y-2 lg:ml-10">
-            <span>Freelance Personal<br/>Trainer Professional<br/></span>{" "}
+            <span>Professional Freelance <br/>Personnel Trainer <br/></span>{" "}
           </h1>
           {/* <Link
             href="/"
