@@ -10,7 +10,12 @@ function Gallery() {
   return (
     <section id="gallery">
       <div className="px-8 py-16 lg:py-24 space-y-16">
-        <div className="grid grid-cols-1 lg:grid-cols-3 max-w-screen-xl m-auto lg:px-16 gap-4">
+      {page === gallery.page2 && (
+  <p className="text-black text-2xl font-semibold  text-center pl-2 lg:ml-11">
+    Satisfied Clients
+  </p>
+)}
+      <div className="grid grid-cols-1 lg:grid-cols-3 max-w-screen-xl m-auto lg:px-16 gap-4">
           {page.map((data) => (
             <Image
               key={data}
