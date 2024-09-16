@@ -141,7 +141,7 @@ export const schedule = {
 };
 
 export const gallery = {
-  page1: [
+  page2: [
    "/images/gallery/page-1/img-11.jpg", 
     "/images/gallery/page-1/img-12.jpg",
     //"/images/gallery/page-1/img-13.jpg",
@@ -151,13 +151,16 @@ export const gallery = {
    "/images/gallery/page-1/img-20.jpg",
     "/images/gallery/page-1/img-10.jpg",
   ],
-  page2: [
+  page1: [
     "/images/gallery/page-2/img-5.jpg",
     "/images/gallery/page-2/img-6.jpg",
     "/images/gallery/page-2/img-7.jpg",
     "/images/gallery/page-2/img-8.jpg",
     "/images/gallery/page-2/img-9.jpg", 
     "/images/gallery/page-2/img-10.jpg", 
-    "/images/gallery/page-2/img-11.jpg",
+    "/images/gallery/page-2/img-12.jpg",
+    "/images/gallery/page-2/img-13.jpg",
+    "/images/gallery/page-2/img-14.jpg",
+    "/images/gallery/page-2/img-15.jpg",
   ],
 };

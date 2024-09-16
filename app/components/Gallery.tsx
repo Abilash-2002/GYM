@@ -10,8 +10,8 @@ function Gallery() {
   return (
     <section id="gallery">
       <div className="px-8 py-16 lg:py-24 space-y-16">
-      {page === gallery.page2 && (
-  <p className="text-black text-2xl font-semibold  text-center pl-2 lg:ml-11">
+      {page === gallery.page1 && (
+  <p className="text-black text-2xl font-semibold  text-center  lg:ml-11">
     Satisfied Clients
   </p>
 )}
@@ -23,7 +23,7 @@ function Gallery() {
               alt="gallery"
               width={1000}
               height={1000}
-              className="w-full h-96 px-2"
+              className="w-full h-96 px-2 rounded-3xl"
             />
           ))}
         </div>
