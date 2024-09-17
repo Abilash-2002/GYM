@@ -12,7 +12,7 @@ function page() {
       <Header />
       <MobileNavbar />
       <AboutSidebar />
-      <Banner page="Gallery" />
+      <Banner page="Clients and Gallery" />
       <Gallery />
       <Footer />
     </main>
